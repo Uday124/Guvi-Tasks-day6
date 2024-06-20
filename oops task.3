@@ -1,0 +1,17 @@
+//Write a “person” class to hold all the details.
+class Person {
+    constructor(name, age, country) {
+      this.name = name;
+      this.age = age;
+      this.country = country;
+    }
+  
+    displayDetails() {
+      console.log(`Name: ${this.name}`);
+      console.log(`Age: ${this.age}`);
+      console.log(`Country: ${this.country}`);
+    }
+  }
+  const person = new Person( 'Uday', 24, 'Bharath');
+  console.log('Person Details:')
+  person.displayDetails()
